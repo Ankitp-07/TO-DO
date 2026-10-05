@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+
+@variant dark (&:where(.dark, .dark *));
+
+
+@theme {
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+
+  --color-brand-50: oklch(97% 0.02 250);
+  --color-brand-100: oklch(93% 0.05 250);
+  --color-brand-200: oklch(86% 0.10 250);
+  --color-brand-300: oklch(76% 0.15 250);
+  --color-brand-400: oklch(65% 0.20 250);
+  --color-brand-500: oklch(55% 0.25 250);
+  --color-brand-600: oklch(47% 0.22 250);
+  --color-brand-700: oklch(39% 0.18 250);
+  --color-brand-800: oklch(31% 0.14 250);
+  --color-brand-900: oklch(23% 0.10 250);
+
+  --color-surface-50: oklch(99% 0.002 250);
+  --color-surface-100: oklch(97% 0.004 250);
+  --color-surface-800: oklch(18% 0.01 250);
+  --color-surface-900: oklch(13% 0.01 250);
+  --color-surface-950: oklch(9% 0.01 250);
+}
